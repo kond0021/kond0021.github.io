@@ -1,22 +1,23 @@
-contact page
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Week 3 - HTML Text and Semantics</title>
+    <title>Reggie's Coffee Shop - Contact</title>
 </head>
 
 <body>
     <!-- This is a HTML comment -->
-    <!-- tagname + Tab to autocomplete -->
-    <!-- command + right arrow key to jump to end of line-->
-    <!-- option + up or down arrow keys to move a line of code -->
-    <!-- option + z for wrapping text to next line -->
-    <!-- command +A - select the -->
-    <!-- -->
-    <!-- -->
+        <!-- command + / adding and removing a comment -->
+        <!-- tagname + Tab to autocomplete -->
+        <!-- command + right arrow key to jump to end of line-->
+        <!-- option + up or down arrow keys to move a line of code -->
+        <!-- option + z for wrapping text to next line -->
+        <!-- option + command + down arrow key, for multiple edit points. Escape to get rid of them. -->
+        <!-- tagname*number to get multiple tags. li*5 will give us 5 list items -->
+        <!-- command + A - Select Every thing -->
+        <!-- command + C - Copy -->
+        <!-- command + V - Paste -->
     <header>
         <h1>Reggie's Coffee Shop</h1>
         <nav>
@@ -25,13 +26,9 @@ contact page
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-
                     <a href="contact.html">Contact Us</a>
                 </li>
             </ul>
-
-
-
         </nav>
     </header>
     <!-- ************ main content of the page ************ -->
@@ -44,7 +41,6 @@ contact page
                     <th>Day</th>
                     <th>Hours</th>
                 </tr>
-
             </thead>
             <tbody>
                 <tr>
@@ -53,11 +49,11 @@ contact page
                 </tr>
                 <tr>
                     <td>Sat</td>
-                    <td>8 am - 11 pm</td>
+                    <td>8 AM - 11 PM</td>
                 </tr>
                 <tr>
-                    <td>sun</td>
-                    <td>closed</td>
+                    <td>Sun</td>
+                    <td>Closed</td>
                 </tr>
             </tbody>
         </table>
@@ -65,15 +61,13 @@ contact page
             <h3>We love to hear from you!</h3>
             <form action="thanks.html" method="get">
                 <div>
-
                     <label for="fullname">Your Name</label>
                     <input type="text" id="fullname" name="fullname" placeholder="John Doe" value="Mr. ">
                 </div>
                 <div>
-
                     <label for="youremail">Email</label>
                     <!-- required is a boolean attribute, it only needs to be set by its name -->
-                    <input type="email" id="youremail" name="youremail">
+                    <input type="email" id="youremail" name="youremail" required>
                 </div>
                 <div>
                     <label for="message">Message</label>
