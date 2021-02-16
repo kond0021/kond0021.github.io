@@ -3,6 +3,7 @@ body {
     color: darkslategray;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 h1{
     color: white;
 }
@@ -67,7 +68,7 @@ a[href="#treatofweek"] {
 }
 
 /* Using Pseudo Classes 
-   Styling Navigatioon
+   Styling Navigation
 */
 
 /* LoVe HAte */
