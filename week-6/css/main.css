@@ -52,7 +52,9 @@ nav ul a {
 
 /* id selector */
 /* Specificity: 0100 */
-#treatofweek{
+#treatofweek {
+    /* background-color: orange; */
+    /* color image repeat */
     background: darkslategray url("../images/bread.jpg") no-repeat center center;
     background-size: cover;
     color: #fff;
