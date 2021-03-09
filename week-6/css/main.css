@@ -12,6 +12,8 @@ body {
 
     /* background-repeat: no-repeat; */
     /* x-axis y-axis */
+    /* background-position: 100px 200px; */
+    /* background-size: cover; */
     
 }
 /* cascading */
@@ -76,14 +78,15 @@ nav ul a {
 
 /* overwriting the background-color for nth-child list items */
 /* 0103 */
-#treatofweek ul li:nth-child(n) {
+#treatofweek dl ul li {
     background-color: transparent;
 }
 
 /* Avoid using id for styling, use classes mostly */
 
 .large-text{
-    font-size: 20px;
+    font-size: 1.25rem;
+    /* 1.25 × 16 =20px */
 }
 
 /* Child selector or Direct Child selector */
