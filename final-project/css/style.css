@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------ CSS RESET ------ */
+
+/* Custom CSS */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+body{
+    line-height: 1.5;
+    max-width: 1200px;    
+}
+
+.nav{
+    background-color: #222
+}
+
+h1,h2{
+    font-weight: bold;
+    /* top left-right bottom */
+    margin: 1rem 0 0.5rem;
+}
+
+h1{
+    font-size: 5.063rem;
+}
+h2{
+    font-size: 3.375rem;
+}
+h3{
+    font-size: 2.25rem;
+}
+p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+
+
+/* Main Nav */
+.nav .logo {
+    background-color: #c78c06;
+}
+.nav-list {
+    text-align: center;
+    color: #c78c06;
+}
+.nav-list .current {
+    color: black;
+}
+
+.nav-list a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    padding: 2em 0;
+    display: block;
+}
+
+.current{
+    background-color: #c78c06;
+
+}
+
+/* Bannar */
+.banner h1{
+    position: absolute;
+    top: 30%;
+    color: white;
+
+    width: 100%;
+  }
+
+  .banner p{
+      
+
+  }
+
+  .bannar .btn {
+      color: #222;
+      padding: 1rem;
+      font-size: 1rem;
+      border: solid 1px #222;
+      border-radius: 7px;
+      background-color: #c78c06;
+  }
+  
+  
+  
+  .banner{
+    position: relative;
+    margin: 0 auto;
+  }
+  .banner img{
+    width: 1200px;
+  }
+ 
+
+
+
+
+
+/* Main */
+
+/* About Us section */
+.one{
+    margin: 0;
+    max-width: 100%;
+    background: #ffe6ac;
+    padding: 3em;
+}
+
+.one img{
+    max-width: 100%;
+}
+
+/* About Our Services section */
+
+.two{
+    padding: 3em;
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+.digital{
+    margin: 0;
+    max-width: 75%;
+    background: #ffe6ac;
+    padding: 1em;
+}
+.digital img{
+    max-width: 100%;
+}
+
+.marketing{
+    margin: 0;
+    max-width: 75%;
+    background: #ffe6ac;
+    padding: 1em;
+}
+.marketing img{
+    max-width: 100%;
+}
+
+.video{
+    margin: 0;
+    max-width: 75%;
+    background: #ffe6ac;
+    padding: 1em;
+}
+.video img{
+    max-width: 100%;
+}
+
+.web{
+    margin: 0;
+    max-width: 75%;
+    background: #ffe6ac;
+    padding: 1em;
+}
+.web img{
+    max-width: 100%;
+}
+
+.print{
+    margin: 0;
+    max-width: 75%;
+    background: #ffe6ac;
+    padding: 1em;
+}
+
+.print img{
+    max-width: 100%;
+}
+
+/* About Our Vision section */
+
+.three{
+    padding: 3em;
+}
+
+.three img{
+    max-width: 100%;
+}
+
+/* About Our Team section */
+
+.four {
+    padding: 3em;
+}
+
+.four .box1 {
+    margin: 0;
+    max-width: 100%;
+    background: #ffe6ac;
+    padding: 1em;
+}
+
+.four .box2 {
+    margin: 0em;
+    max-width: 100%;
+    background: #ffe6ac;
+    padding: 1em;
+}
+
+
+
+/* About Contact Us section */
+
+.five {
+    padding: 3em;
+}
+
+
+
+
+/* footer */
+.footer {
+    background: #222;
+    color: #c78c06;
+}
+
+
+
+
+
+
+/* Desktop styles */
+@media screen and (min-width: 760px) and (max-width: 1200px){
+    html {
+        font-size: 16px;
+    }
+    .one {
+        display: flex;
+        flex-direction: justify-content;
+    }
+}
