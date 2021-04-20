@@ -69,7 +69,7 @@ body{
 }
 
 .nav{
-    background-color: #222
+    background-color: #222;
 }
 
 h1,h2{
@@ -103,7 +103,7 @@ p{
     color: #c78c06;
 }
 .nav-list .current {
-    color: black;
+    color: #222;
 }
 
 .nav-list a {
@@ -238,7 +238,7 @@ p{
 }
 
 .three img{
-    max-width: 100%;
+    max-width: 75%;
 }
 
 /* About Our Team section */
@@ -290,6 +290,6 @@ p{
     }
     .one {
         display: flex;
-        flex-direction: justify-content;
+        flex-direction: ;
     }
 }
