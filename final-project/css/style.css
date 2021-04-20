@@ -323,9 +323,6 @@ p{
 
     .field-4 {
         display: grid;
-        grid-template-columns: 2, 1fr;
-        grid-template-rows: 2, 1fr;
-        
     }
     .field-4 .box1 {
         grid-column: 1/2;
