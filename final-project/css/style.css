@@ -149,7 +149,7 @@ p{
     margin: 0 auto;
   }
   .banner img{
-    width: 1200px;
+    width: 100%;
   }
  
 
@@ -284,6 +284,8 @@ p{
 .footer {
     background: #222;
     color: #c78c06;
+    text-decoration: none;
+    padding-left: 30px;
 }
 
 
