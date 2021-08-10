@@ -1,0 +1,38 @@
+body {
+    background-color: #7798ab;
+}
+
+header {
+    background-color: #7798ab;
+}
+
+.container {
+    background-color: #ccc;
+}
+.col-4 {
+    background-color: #ccc;
+}
+
+
+
+/* Using Font Awesome */
+.fab {
+    color: #fff;
+    font-size: 20px;
+}
+
+.fab:hover {
+    color: #35524a;
+    font-size: 20px;
+}
+
+.fas {
+    color: #fff;
+}
+
+
+/* color pullets */
+
+/* #d4e09b
+#35524a
+#9f9fad */
