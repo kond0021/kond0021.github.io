@@ -1,17 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-    background-color: #7798ab;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------- CSS RESET ---------- */
+
+/* Custom CSS */
+
+html {
+    display: block;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: 'Fredericka the Great', cursive; */
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Permanent Marker', cursive; */
+}
+
+body {
+    font-size: 20px;
 }
 
 header {
-    background-color: #7798ab;
+    /* background-color: #7798ab; */
 }
 
+header {
+    width: 100%;
+}
+
+.logo {
+	max-width: 100px;
+}
+.main img {
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* Navigation bar  */
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: montserrat;
+}
+nav{
+	background: #7798ab;
+	height: 80px;
+	width: 100%;
+}
+label.logo{
+	line-height: 80px;
+	padding: 0 100px;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	/* text-transform: uppercase; */
+}
+a.active,a:hover{
+	background: #35524a;
+	transition: .5s;
+}
+.checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+}
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+
+}
+@media (max-width: 858px){
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #2c3e50;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	a:hover,a.active{
+		background: none;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+}
+ 
+
+/* portfolio page */
+
+
+
+
+
+
+
+
+/* contact page */
+h1{
+	text-align: center;
+	font-size: 40px;
+	padding: 50px;
+}
+.message{
+	text-align: center;
+	padding: 0 50px;
+	margin-bottom: 50px;
+}
+.contact-info li{
+	text-align: center;
+	padding: 10px;
+}
+footer{
+	background: #7798ab;
+	height: 80px;
+	width: 100%;
+	margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container {
-    background-color: #ccc;
+    /* background-color: #7798ab; */
 }
-.col-4 {
-    background-color: #ccc;
+
+.search-box{
+	background: #7798ab;
 }
+
+footer {
+    /* background-color: #7798ab; */
+    /* padding: 1rem; */
+}
+
+section.icons {
+	/* background-color: red; */
+}
+.icons {
+	/* background-color: blue; */
+}
+
+.copyright {
+	margin: 0px;
+	padding: 0px;
+	height: 5vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.icons {
+	margin: 0px;
+	padding: 0px;
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	margin: 10px;
+}
+
+
+
+/* Using Google Fonts */
+h1 {
+	/* font-family: 'Comic Neue', cursive; */
+
+}
+
+h2 {
+	/* font-family: 'Caveat', cursive; */
+
+}
+
+h3 {
+	/* font-family: 'Love Ya Like A Sister', cursive; */
+
+}
+
+p {
+	font-family: 'Vollkorn', serif; 
+}
+
+
 
 
 
@@ -36,3 +307,12 @@ header {
 /* #d4e09b
 #35524a
 #9f9fad */
+
+
+/* 
+font-family: 'Caveat', cursive;
+font-family: 'Comic Neue', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Vollkorn', serif; 
+*/
