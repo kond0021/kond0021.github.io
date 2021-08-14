@@ -3,3 +3,13 @@ This time, I created my first website for my web portfolio. I had never done res
 
 Signed, 
 **Tatsu Kondo**
+
+
+**Material used**
+*My own work (images)*
+
+**Image site used**
+*https://pixabay.com*
+
+**Used Font**
+*Google fonts*
