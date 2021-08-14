@@ -27,7 +27,7 @@
               </label>
           <ul>
                <!-- Navigation menu -->
-              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="portfolio.html">Portfolio</a></li>
               <li><a href="contact.html">Contact</a></li>
@@ -36,7 +36,7 @@
     </header>
 
     <main>
-        <div class="main">
+        <div class="main-portfolio">
             <img 
             src="./images/landscape.jpg" 
             alt="landscape"
@@ -44,13 +44,13 @@
                     ./images/landscape-480.jpg 480w,
                     ./images/landscape-720.jpg 720w,
                     ./images/landscape-960.jpg 960w"
-            sizes="(min-width: 960px) 50vw, 100vw">
+            sizes="(min-width: 960px) 80vw, 0vw">
             <h1>My Portfolio</h1>
         </div>
 
         <!-- <div class="container"> -->
             <div class="boxes">
-                <div class="box1">
+                <div class="box-1">
                     <img 
                     src="./work/full-moon.jpg" 
                     alt="full-moon"
@@ -58,10 +58,10 @@
                             work/full-moon-480.jpg 480w,
                             work/full-moon-720.jpg 720w,
                             work/full-moon-960.jpg 960w"
-                    sizes="(min-width: 960px) 50vw, 100vw">
-                    <h2>1. Work in Lightroom</h2>
+                    sizes="(min-width: 960px) 30vw, 80vw">
+                    <h4>1. Work in Lightroom</h4>
                 </div>
-                <div class="box2">
+                <div class="box-2">
                     <img 
                     src="./work/justice-for-frog-logo.jpg" 
                     alt="justice-for-frog-logo"
@@ -69,10 +69,10 @@
                             work/justice-for-frog-logo-480.jpg 480w,
                             work/justice-for-frog-logo-720.jpg 720w,
                             work/justice-for-frog-logo-960.jpg 960w"
-                    sizes="(min-width: 960px) 50vw, 100vw">
-                    <h2>2. Work in Illustrator</h2>
+                    sizes="(min-width: 960px) 30vw, 80vw">
+                    <h4>2. Work in Illustrator</h4>
                 </div>
-                <div class="box3">
+                <div class="box-3">
                     <img 
                     src="./work/photoshop-animal.jpg" 
                     alt="photoshop-animal"
@@ -80,10 +80,10 @@
                             work/photoshop-animal-480.jpg 480w,
                             work/photoshop-animal-720.jpg 720w,
                             work/photoshop-animal-960.jpg 960w"
-                    sizes="(min-width: 960px) 50vw, 100vw">
-                    <h2>3. Work in Photoshop</h2>
+                    sizes="(min-width: 960px) 30vw, 80vw">
+                    <h4>3. Work in Photoshop</h4>
                 </div>
-                <div class="box4">
+                <div class="box-4">
                     <img 
                     src="./work/panning.jpg" 
                     alt="panning"
@@ -91,10 +91,10 @@
                             work/panning-480.jpg 480w,
                             work/panning-720.jpg 720w,
                             work/panning-960.jpg 960w"
-                    sizes="(min-width: 960px) 50vw, 100vw">
-                    <h2>4. Photography: Panning</h2>
+                    sizes="(min-width: 960px) 30vw, 80vw">
+                    <h4>4. Photography: Panning</h4>
                 </div>
-                <div class="box5">
+                <div class="box-5">
                     <img 
                     src="./work/canada-music-academy.jpg" 
                     alt="canada-music-academy"
@@ -102,10 +102,10 @@
                             work/canada-music-academy-480.jpg 480w,
                             work/canada-music-academy-720.jpg 720w,
                             work/canada-music-academy-960.jpg 960w"
-                    sizes="(min-width: 960px) 50vw, 100vw">
-                    <h2>5. UX/UI Design: Canada Music Academy</h2>
+                    sizes="(min-width: 960px) 30vw, 80vw">
+                    <h4>5. UX/UI Design: Canada Music Academy</h4>
                 </div>
-                <div class="box6">
+                <div class="box-6">
                     <img 
                     src="./images/wordpress.jpg" 
                     alt="wordpress"
@@ -113,37 +113,45 @@
                             images/wordpress-480.jpg 480w,
                             images/wordpress-720.jpg 720w,
                             images/wordpress-960.jpg 960w"
-                    sizes="(min-width: 960px) 50vw, 100vw">
-                    <h2>6. Wordpress: URL</h2>
+                    sizes="(min-width: 960px) 30vw, 80vw">
+                    <h4>6. Wordpress: http://tatsukondo.com/wordpress/</h4>
                 </div>
             </div>
         </div>
     </main>
 
     <footer>
-        <section class="copyright">
-            <div>
-                <p>&copy;Tatsu 2021</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div>
+                        <p>&copy;Tatsu 2021</p>
+                    </div>
+                </div>
+                <div class="col-md-2 offset-3">
+                    <ol>
+                        <!-- Using Font Awesome -->
+                        <a href="https://www.instagram.com" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </ol>
+                </div>
+                <div class="col-md-3 offset-2">
+                      <!-- Add search box -->
+                      <div class="search-box">
+                        <input type="text" placeholder="Search..">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                
             </div>
-            <ol>
-                <!-- Using Font Awesome -->
-                <a href="https://www.instagram.com" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.facebook.com" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </ol>
-            <!-- Add search box -->
-            <div class="search-box">
-                <input type="text" placeholder="Search..">
-                <i class="fas fa-search"></i>
-            </div>
-
-        </section>
+        </div>
     </footer>
 
         

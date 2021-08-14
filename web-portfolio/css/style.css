@@ -64,19 +64,11 @@ body {
 }
 
 header {
-    /* background-color: #7798ab; */
-}
-
-header {
     width: 100%;
 }
 
 .logo {
 	max-width: 100px;
-}
-.main img {
-	margin: 0 auto;
-	text-align: center;
 }
 
 
@@ -133,6 +125,7 @@ a.active,a:hover{
 #check{
 	display: none;
 }
+
 @media (max-width: 952px){
 	label.logo{
 		font-size: 30px;
@@ -143,7 +136,7 @@ a.active,a:hover{
 	}
 
 }
-@media (max-width: 858px){
+@media (max-width: 800px){
 	.checkbtn{
 		display: block;
 	}
@@ -172,15 +165,135 @@ a.active,a:hover{
 		left: 0;
 	}
 }
- 
+
+/* home  */
+
+.portfolio {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.portfolio h3 {
+	margin-bottom: 30px;
+
+}
+
+.contact h3 {
+	margin-bottom: 30px;
+
+}
+
+.contact img {
+	padding-top: 80px;
+}
+
+@media (min-width: 800px){
+	.main-home img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 100%;
+		
+	}
+}
+
+/* about page  */
+
+.about img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70%;
+}
+
+.about p {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70%;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+
+.background {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70%;
+	padding-bottom: 50px;
+}
+
+.background h2 {
+	margin-bottom: 30px;
+}
+
+.skills {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70%;
+}
+
+.skills h2 {
+	margin-bottom: 30px;
+}
+
 
 /* portfolio page */
 
+.boxes {
+	padding-left: 50px;
+}
+.box-1 {
+	margin-bottom: 50px;
+}
+.box-2 {
+	margin-bottom: 50px;
+}
+.box-3 {
+	margin-bottom: 50px;
+}
+.box-4 {
+	margin-bottom: 50px;
+}
+.box-5 {
+	margin-bottom: 50px;
+}
+.box-6 {
+	margin-bottom: 50px;
+}
 
+@media (min-width: 800px){
+	.boxes {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+	}
+	.main-portfolio img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 80%;
+		
+	}
+}
 
-
-
-
+@media (min-width: 1200px){
+	.boxes {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+	}
+}
 
 
 /* contact page */
@@ -189,12 +302,27 @@ h1{
 	font-size: 40px;
 	padding: 50px;
 }
+
+h2, h3{
+	text-align: center;
+	font-size: 24px;
+}
+
 .message{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
 	text-align: center;
 	padding: 0 50px;
 	margin-bottom: 50px;
+	
 }
 .contact-info li{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
 	text-align: center;
 	padding: 10px;
 }
@@ -206,37 +334,8 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container {
-    /* background-color: #7798ab; */
-}
-
 .search-box{
 	background: #7798ab;
-}
-
-footer {
-    /* background-color: #7798ab; */
-    /* padding: 1rem; */
-}
-
-section.icons {
-	/* background-color: red; */
-}
-.icons {
-	/* background-color: blue; */
 }
 
 .copyright {
@@ -264,17 +363,21 @@ a {
 
 /* Using Google Fonts */
 h1 {
-	/* font-family: 'Comic Neue', cursive; */
+	font-family: 'Comic Neue', cursive;
+	color: #9f9fad;
 
 }
 
 h2 {
-	/* font-family: 'Caveat', cursive; */
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: #7798ab;
 
 }
 
-h3 {
-	/* font-family: 'Love Ya Like A Sister', cursive; */
+h3, h4{
+	font-family: 'Caveat', cursive;
+	color: #7798ab;
+	
 
 }
 
@@ -300,13 +403,6 @@ p {
 .fas {
     color: #fff;
 }
-
-
-/* color pullets */
-
-/* #d4e09b
-#35524a
-#9f9fad */
 
 
 /* 

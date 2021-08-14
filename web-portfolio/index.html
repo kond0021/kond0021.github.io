@@ -36,7 +36,7 @@
     </header>
 
     <main>
-        <div class="main">
+        <div class="main-home">
             <img 
             src="./images/lens.jpg" 
             alt="lens"
@@ -44,49 +44,51 @@
                     ./images/lens-480.jpg 480w,
                     ./images/lens-720.jpg 720w,
                     ./images/lens-960.jpg 960w"
-            sizes="(min-width: 960px) 50vw, 100vw">
+            sizes="(min-width: 960px) 100vw, 100vw">
             <h1>Welcome to Tatsu's personal site</h1>
         </div>
         
-    <div class="container">
+    <!-- <div class="container"> -->
 
-        <section class="about">
-            <div class="about">
+        <div class="about">
+            <section class="about">
                 <h2>About me</h2>
                 <p>Hello, my name is Tatsu. I am a student at Algonquin College and studying interactive media design. This website is a portfolio site created to introduce my work so far. If you are interested in my work, you can contact me from the contact page. Thank you for visiting.</p>
-            </div>
-        </section>
+            </section>
+        </div>
 
-        <section class="portfolio">
+        <div class="containe">
             <div class="portfolio">
-                <img src="./images/camera.jpg" 
-                alt="camera"
-                srcset="./images/camera-320.jpg 320w,
-                ./images/camera-480.jpg 480w
-                ./images/camera-720.jpg 720w
-                ./images/camera-960.jpg 960w"
-                sizes="(min-width: 960px) 50vw, 100vw">
-                <h3>Portfolio</h3>
-                <p>Photography, Videography <br>
-                    Illustrator, Photoshop, Lightroom <br>
-                    UX/UI Design, Web design
-                </p>
+                <section class="portfolio">
+                    <img src="./images/camera.jpg" 
+                    alt="camera"
+                    srcset="./images/camera-320.jpg 320w,
+                    ./images/camera-480.jpg 480w
+                    ./images/camera-720.jpg 720w
+                    ./images/camera-960.jpg 960w"
+                    sizes="(min-width: 960px) 50vw, 80vw">
+                    <h3>Portfolio</h3>
+                    <p>Photography, Videography <br>
+                        Illustrator, Photoshop, Lightroom <br>
+                        UX/UI Design, Web design
+                    </p>
+                </section>
             </div>
-        </section>
-
-        <section class="contact">
-            <div class="contact">
+        </div>
+            
+        <div class="contact">
+            <section class="contact">
                 <img src="./images/laptop.jpg" 
                 alt="laptop"
                 srcset="./images/laptop-320.jpg 320w,
                 ./images/laptop-480.jpg 480w,
                 ./images/laptop-720.jpg 720w,
                 ./images/laptop-960.jpg 960w"
-                sizes="(min-width: 960px) 50vw, 100vw">
+                sizes="(min-width: 960px) 50vw, 80vw">
                 <h3>Contact</h3>
                 <p>You can contact me via email or social media.<br>Please note that it may take 2-3 business days to reply.<br>Thank you,</p>
-            </div>
-        </section>
+            </section>
+        </div>
 
     </div>
 
@@ -94,15 +96,13 @@
 
     <footer>
         <div class="container">
-
-            <section class="copyright">
-                <div>
-                    <p>&copy;Tatsu 2021</p>
+            <div class="row">
+                <div class="col-md-2">
+                    <div>
+                        <p>&copy;Tatsu 2021</p>
+                    </div>
                 </div>
-            </section>
-            
-            <section class="icons">
-                <div class="icons">
+                <div class="col-md-2 offset-3">
                     <ol>
                         <!-- Using Font Awesome -->
                         <a href="https://www.instagram.com" target="_blank">
@@ -116,16 +116,15 @@
                         </a>
                     </ol>
                 </div>
-            </section>
-            
-            <section class="search-box">
-                <!-- Add search box -->
-                <div class="search-box">
-                    <input type="text" placeholder="Search..">
-                    <i class="fas fa-search"></i>
+                <div class="col-md-3 offset-2">
+                      <!-- Add search box -->
+                      <div class="search-box">
+                        <input type="text" placeholder="Search..">
+                        <i class="fas fa-search"></i>
+                    </div>
                 </div>
-            </section>
-            
+                
+            </div>
         </div>
     </footer>
 
